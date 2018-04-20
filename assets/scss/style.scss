@@ -8,7 +8,13 @@
 
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+@import "./_variables.scss";
 
-.hey {
-  background-color: blue;
+
+header {
+  display: inline;
+  div {
+    border: 1px solid blue;
+    background-color: $brown;
+  }
 }
