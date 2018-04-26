@@ -13,11 +13,22 @@
  * Variables
  *
  * –––––––––––––––––––––––––––––––––––––––––––––––––– */
-header {
-  display: inline;
-}
-header div {
-  border: 1px solid blue;
+body {
+  font-family: "Tajawal", sans-serif;
   background-color: #b89882;
-  font-family: "amble", sans-serif;
+  text-align: center;
+}
+body div {
+  border: 1px solid blue;
+}
+
+.top-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 75vh 0 0 0;
 }

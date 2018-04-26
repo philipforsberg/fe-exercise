@@ -10,12 +10,24 @@
 
 @import "./_variables.scss";
 
-
-header {
-  display: inline;
-  div { 
+body {
+  font-family: $font-family-one;
+  background-color: $brown;
+  text-align: center;
+  div {
     border: 1px solid blue;
-    background-color: $brown;
-    font-family: 'amble', sans-serif;
+
   }
+}
+
+.top-box {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.bottom-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 75vh 0 0 0;
 }
