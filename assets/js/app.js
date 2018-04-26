@@ -18,22 +18,7 @@ $(() => {
 
   $('.menu-image').click(function() {
     $('.menu-image').attr('src', './assets/img/cross.svg');
+    $('.menu-box').css('visibility', 'visible');
   });
 
-
-
-
-
 });
-
-
-
-
-
-
-
-// $('.house').hover(function() {
-//   $('body').fadeTo('slow', 0.3, function() {
-//     $('body').toggleClass('house-hover');
-//   }).delay(1000).fadeTo('slow', 1);
-// });
