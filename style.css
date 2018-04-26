@@ -17,18 +17,43 @@ body {
   font-family: "Tajawal", sans-serif;
   background-color: #b89882;
   text-align: center;
-}
-body div {
-  border: 1px solid blue;
+  color: #3e4544;
 }
 
 .top-box {
   display: flex;
   justify-content: space-between;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+.top-box h1 {
+  font-size: 44px;
+}
+.top-box .instagram {
+  margin: 30px 0 0 5%;
+}
+.top-box .menu {
+  margin: 30px 5% 0 0;
+}
+.top-box div img {
+  height: 30px;
+  width: 30px;
 }
 
 .bottom-box {
   display: flex;
   justify-content: space-around;
-  margin: 75vh 0 0 0;
+  margin: 70vh 0 0 0;
+  font-size: 29px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-align: center;
 }

@@ -14,20 +14,46 @@ body {
   font-family: $font-family-one;
   background-color: $brown;
   text-align: center;
-  div {
-    border: 1px solid blue;
-
-  }
+  color: $grey;
+  // div {
+  //   border: 1px solid blue;
+  // }
 }
 
 .top-box {
   display: flex;
   justify-content: space-between;
-
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  h1 {
+    font-size: 44px;
+  }
+  .instagram {
+    margin: 30px 0 0 5%;
+  }
+  .menu {
+    margin: 30px 5% 0 0;
+  }
+  div img {
+    height: 30px;
+    width: 30px;
+  }
 }
 
 .bottom-box {
   display: flex;
   justify-content: space-around;
-  margin: 75vh 0 0 0;
+  margin: 70vh 0 0 0;
+  font-size: 29px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-align: center;
 }
