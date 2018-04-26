@@ -54,7 +54,7 @@ body a {
 .bottom-box {
   display: flex;
   justify-content: space-around;
-  margin: 70vh 0 0 0;
+  margin: 30vh 0 0 0;
   font-size: 29px;
   font-weight: 300;
   font-style: normal;
@@ -62,6 +62,23 @@ body a {
   line-height: normal;
   letter-spacing: 3.5px;
   text-align: center;
+}
+
+.menu-box {
+  visibility: hidden;
+  margin-top: 10vh;
+  position: relative;
+  display: block;
+  font-size: 29px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-align: center;
+}
+.menu-box div {
+  margin-top: 1vh;
 }
 
 .house-hover {
