@@ -14,7 +14,21 @@ $(() => {
     $('body').toggleClass('stud-hover');
   });
 
+
+
+  $('.menu-image').click(function() {
+    $('.menu-image').attr('src', './assets/img/cross.svg');
+  });
+
+
+
+
+
 });
+
+
+
+
 
 
 
