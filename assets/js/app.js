@@ -6,21 +6,20 @@ $(() => {
     $('body').toggleClass('house-hover');
   });
 
+  $('.beach').hover(function() {
+    $('body').toggleClass('beach-hover');
+  });
+
+  $('.stud').hover(function() {
+    $('body').toggleClass('stud-hover');
+  });
+
 });
 
 
-// $('.house').mouseover(function() {
-//   $('body').css('background-image', 'url(./assets/img/placeholder-01.jpg)');
-// }).mouseout(function() {
-//   $('body').css('background-image', 'none');
+
+// $('.house').hover(function() {
+//   $('body').fadeTo('slow', 0.3, function() {
+//     $('body').toggleClass('house-hover');
+//   }).delay(1000).fadeTo('slow', 1);
 // });
-
-
-// $(".result").hover(
-//   function () {
-//     $(this).addClass("result_hover");
-//   },
-//   function () {
-//     $(this).removeClass("result_hover");
-//   }
-// );

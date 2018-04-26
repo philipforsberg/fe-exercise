@@ -62,3 +62,13 @@ body {
   background-image: url(./assets/img/placeholder-01.jpg);
   color: #fff;
 }
+
+.beach-hover {
+  background-image: url(./assets/img/placeholder-02.jpg);
+  color: #fff;
+}
+
+.stud-hover {
+  background-clip: url(./assets/video/placeholder-vid.mp4);
+  color: #fff;
+}
